@@ -69,7 +69,7 @@ def query_data_subset(client, query, df_subset):
                     "content": data_context
                 }
             ],
-            model="mixtral-8x7b-32768",
+            model="llama-3.3-70b-versatile",
             temperature=0.3,
             max_tokens=4096
         )
