@@ -6,7 +6,7 @@ import os
 # Load the dataset
 @st.cache_data
 def load_data():
-    return pd.read_excel("Updated Hotel Bookings.xls")
+    return pd.read_csv("hotels_data_preprocessed.csv")
 
 # Initialize Groq client
 def get_groq_client(api_key):
